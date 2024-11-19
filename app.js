@@ -1,4 +1,4 @@
-const { stringify } = require("querystring")
+
 const pelis = require("./peliculas.js")
 const fs = require('fs')
 let mensaje = fs.readFileSync("./mensaje.txt")
